@@ -1,0 +1,84 @@
+/*  기본값 초기화  */
+
+html, body, h1, h2, h3, h4, h5, h6{
+	margin: 0; 
+	padding: 0;
+	border: 0;
+  word-break: keep-all;
+}
+
+body {
+	line-height: 1;
+  font-family: TossFaceFont, Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+}
+ol, ul {  
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+  text-decoration-line: none;
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+/* nav 관련 속성 */
+
+.nav{
+    width:100%;
+    display: flex;
+    position: fixed;
+    background-color: whitesmoke
+}
+
+.navbar_menu{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #4e5968;
+}
+
+.navbar_item{
+  align-items: center;
+  margin:10px;
+}
+
+.navbar_lang{
+  display:flex;
+  align-items: center;
+}
+
+
+/* mian 관련 속성 */
+
+.main{
+    height: 1000px;
+    background-color: gray;
+}
+
+/* footer 관련 속성 */
+
+.footer{
+    height: 200px;
+    background-color: beige;
+}
+
