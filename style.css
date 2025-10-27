@@ -479,9 +479,99 @@ a{
 
 /* home4 */
 
-.home_wrap{
+.home4_wrap{
   position:relative;
   width: 100%;
+}
+
+.home4_container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin:auto;
+}
+
+.home4_contentBox{
+  position: relative;
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+
+.home4_head{
+  height: auto;
+  margin-bottom: 210px;
+}
+
+.home4_head1{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #3182f6;
+  margin-bottom: 30px;
+}
+
+.home4_head2{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #191f28;
+  white-space: nowrap;
+}
+
+.home4_content1{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: rgb(51, 61, 75);
+  white-space: pre-wrap;
+}
+
+.home4_content2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: rgb(51, 61, 75);
+  white-space: pre-wrap;
+}
+
+.home4_content3{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: rgb(51, 61, 75);
+  white-space: pre-wrap;
+  margin-bottom: 30px;
+}
+
+.home4_content4{
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgb(51, 61, 75);
+  white-space: pre-wrap;
+}
+
+
+
+
+.home4_imgBox{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  width: 400px;
+  right: 200px;
+}
+
+.home4_img1{
+  width: 600px;
+  left: 50%;
+  top: 50%;
+  align-items: center;
 }
 
 /* home5 */
