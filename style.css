@@ -1,6 +1,6 @@
 /*  기본값 초기화  */
 
-html, body, h1, h2, h3, h4, h5, h6{
+html, body, h1, h2, h3, h4, h5, h6, p{
 	margin: 0; 
 	padding: 0;
 	border: 0;
@@ -121,7 +121,7 @@ a{
   text-align: center;
   margin-bottom: 50px;
   line-height: 1.4;
-  white-space: pre-wrap;
+  white-space: wrap;
 }
 
 .home1_btn {
@@ -158,7 +158,7 @@ a{
   background: #f9fafb;
   padding: 200px 0;
   justify-content: center;
-  white-space: pre-wrap;
+  white-space: wrap;
 }
 
 
@@ -186,7 +186,7 @@ a{
 
 .home2_head{
   position: relative;
-  white-space: pre-wrap;
+  white-space: wrap;
 }
 
 .home2_head1{
@@ -195,17 +195,19 @@ a{
   line-height: 1.3;
   color: #3182f6;
   margin-bottom: 30px;
-  white-space: pre-wrap;
+  white-space: wrap;
   word-break: keep-all;
 }
 
 .home2_head2{
+  position: relative;
   font-size: 50px;
   font-weight: 700;
   line-height: 1.4;
   color: #191f28;
-  white-space: pre-wrap;
+  white-space: wrap;
   word-break: keep-all;
+  z-index: 3;
 }
 
 .home2_mainImg_left_box{
@@ -268,8 +270,9 @@ a{
   font-size: 23px;
   right: 10px;
   bottom: 50px;
-  white-space: pre-wrap;
+  white-space: wrap;
   color: rgb(51, 61, 75);
+  z-index: 3;
 }
 
 /* ------------------------------------------------------- */
@@ -280,6 +283,199 @@ a{
   position:relative;
   width: 100%;
 }
+
+.home3_container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin:auto;
+}
+
+.home3_contentBox{
+  position: relative;
+  width: 92%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.home3_head1{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #3182f6;
+  margin-bottom: 30px;
+}
+
+.home3_head2{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #191f28;
+  margin-bottom: 80px;
+  white-space: wrap;
+}
+
+.home3_main1{
+  padding: 0px;
+  margin: 0px 0px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 30px);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home3_main1_textBox{
+  width: 556px;
+  height: 100%;
+  max-width: calc(50% - 30px);
+  flex-basis: calc(50% - 30px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 38px;
+  white-space: nowrap;
+}
+
+.home3_main1_text1{
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: rgb(49, 130, 246);
+  
+}
+
+.home3_main1_text2{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: rgb(51,61,75);
+}
+
+.home3_main1_text3{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgb(107, 118, 132);
+}
+
+.home3_main1_img{
+  width: 100%;
+  height: auto;
+  max-width: calc(50% - 30px);
+  flex-basis: calc(50% - 30px);
+}
+
+.home3_main2{
+  padding: 0px;
+  margin: 0px 0px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 30px);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home3_main2_textBox{
+  width: 556px;
+  height: 100%;
+  max-width: calc(50% - 30px);
+  flex-basis: calc(50% - 30px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 38px;
+  word-break: break-word;
+  white-space: nowrap;
+}
+
+.home3_main2_text1{
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: rgb(49, 130, 246);
+}
+
+.home3_main2_text2{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: rgb(51,61,75);
+}
+
+.home3_main2_text3{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgb(107, 118, 132);
+}
+
+.home3_main2_img{
+  width: 100%;
+  height: auto;
+  max-width: calc(50% - 30px);
+  flex-basis: calc(50% - 30px);
+}
+
+.home3_main3{
+  padding: 0px;
+  margin: 0px 0px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 30px);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home3_main3_textBox{
+  width: 556px;
+  height: 100%;
+  max-width: calc(50% - 30px);
+  flex-basis: calc(50% - 30px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 38px;
+}
+
+.home3_main3_text1{
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: rgb(49, 130, 246);
+  
+}
+
+.home3_main3_text2{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: rgb(51,61,75);
+}
+
+.home3_main3_text3{
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: rgb(107, 118, 132);
+}
+
+.home3_main3_img{
+  width: 100%;
+  height: auto;
+  max-width: calc(50% - 30px);
+  flex-basis: calc(50% - 30px);
+}
+
+
+
+
 
 /* home4 */
 
