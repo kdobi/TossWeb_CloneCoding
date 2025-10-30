@@ -7,6 +7,10 @@ html, body, h1, h2, h3, h4, h5, h6, p{
   word-break: keep-all;
 }
 
+h1, h2, h3, h4, h5, h6, p, span{
+  z-index: 1;
+}
+
 body {
 	line-height: 1;
   font-family: TossFaceFont, Noto Sans;
@@ -507,6 +511,7 @@ a{
 .home4_head{
   height: auto;
   margin-bottom: 210px;
+  z-index: 1;
 }
 
 .home4_head1{

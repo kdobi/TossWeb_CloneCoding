@@ -1,5 +1,4 @@
-
-
+//  section1 홈화면 인트로 
 let home1_content = document.querySelector(".home1_content");
 let op_count = 0;
 
@@ -14,3 +13,5 @@ const fadein = setInterval(() => {
   }
 }, 50); 
 }, 1000);
+
+
