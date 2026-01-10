@@ -31,3 +31,7 @@ const observer = new IntersectionObserver((entries) => {
 
 targets.forEach((el) => observer.observe(el));
 
+// // 새로고침시 초기화면으로 화면 리셋
+// window.onbeforeunload = () => {
+//   window.scrollTo(0, 0);
+// };

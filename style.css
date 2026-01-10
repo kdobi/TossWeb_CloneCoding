@@ -1488,4 +1488,10 @@ a {
 .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
-}
+} 
+
+.delay-250  { transition-delay: 250ms; }
+.delay-500  { transition-delay: 500ms; }
+.delay-1000 { transition-delay: 1000ms; }
+.delay-1500 { transition-delay: 1500ms; }
+.delay-2000 { transition-delay: 2000ms; }
