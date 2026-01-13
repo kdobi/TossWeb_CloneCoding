@@ -18,7 +18,7 @@ const options = {
   rootMargin: "0px 0px -10% 0px",
 }
 
-const targets = document.querySelectorAll('.reveal')
+const targets = document.querySelectorAll('.reveal');
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -32,6 +32,25 @@ const observer = new IntersectionObserver((entries) => {
 targets.forEach((el) => observer.observe(el));
 
 // // 새로고침시 초기화면으로 화면 리셋
-// window.onbeforeunload = () => {
-//   window.scrollTo(0, 0);
-// };
+window.onbeforeunload = () => {
+  window.scrollTo(0, 0);
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+  const track = document.querySelector(".home4_track");
+  const slides = document.querySelectorAll(".home4_track .home4_inner");
+
+  if (!track || slides.length === 0) return;
+
+  let index = 0;
+  const total = slides.length;
+  const intervalMs = 3000;
+
+  function goTo(i) {
+    index = (i + total) % total;
+    track.style.transform = `translateX(${-100 * index}%)`;
+  }
+
+  // 자동 재생
+  let timer = setInterval(() => goTo(index + 1), intervalMs);
+});

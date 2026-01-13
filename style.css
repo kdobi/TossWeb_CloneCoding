@@ -662,21 +662,46 @@ a {
 
 .home4_imgBox {
   position: absolute;
-  width: 100%;
   height: 100%;
   width: 400px;
   right: 200px;
 }
 
-.home4_img {
+.home4_imgCover {
   width: 600px;
-  left: 50%;
-  top: 50%;
-  align-items: center;
+  display: block;
+}
+.home4_imgContainer{
+  position: absolute;
+  left:130px;
+  top:100px;
+  width:330px;
+  height:740px;
+  overflow:hidden;
+  border-radius:40px;
+  display:flex;   
+  float: none;       
 }
 
-.home4_changeImg {
-  display: none;
+.home4_track{
+  width:100%;
+  height:100%;
+  display:flex;          
+  transition: transform 600ms ease; 
+  transform: translateX(0%);       
+}
+
+.home4_inner{
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.home4_inner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display:block;
 }
 
 /* home5 */
@@ -1029,7 +1054,7 @@ a {
   margin-bottom: 11px;
 }
 
-.home7_textBox {}
+/* .home7_textBox {} */
 
 .home7_text1 {
   font-size: 60px;
@@ -1492,6 +1517,7 @@ a {
 
 .delay-250  { transition-delay: 250ms; }
 .delay-500  { transition-delay: 500ms; }
+.delay-750  { transition-delay: 750ms; }
 .delay-1000 { transition-delay: 1000ms; }
 .delay-1500 { transition-delay: 1500ms; }
 .delay-2000 { transition-delay: 2000ms; }
