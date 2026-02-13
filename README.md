@@ -43,10 +43,11 @@
 <br>
 
 ## 결과물 및 느낀점
+<p> 사이트 : https://kdobi.github.io/TossWeb_CloneCoding/</p>
 
 ![Image](https://github.com/user-attachments/assets/de126e5e-ef1e-4367-8f62-7f1a0b00a9e0)
 > gif 변환파일이라 느리고 화질 안좋음.
->https://kdobi.github.io/TossWeb_CloneCoding/
+
 
 </br>
 <p>나름 변수명을 신경쓰며 작업을 했음에도 획일화 되지 않은 부분들이 생겼고, 유지보수를 해야했다면 상당한 대가를 치루어야 할 코드같다.</p>
